@@ -1,45 +1,47 @@
-# Exp.no: 58
-## QUEUE USING LINKED LIST-1
+# 19CS301-Module12
+# Ex.No 12.a Stack Using Linked List in Python
 
-### AIM
+This project demonstrates a basic stack implementation in Python using list methods to mimic linked list behavior. It includes stack operations like **push**, **display**, **peek**, and **pop**.
 
-To write and display all the elements inserted and also display after deleting the first element. 
+## AIM
 
-### ALORITHM 
+To write a Python program to type and display the elements pushed into a stack using a linked list approach.
 
-1. Start the program.
+## ALGORITHM
 
-2. Initialize an empty list queue.
+1. Start  
+2. Create a stack  
+3. Append (push) elements to the stack  
+4. Print (display) the elements of the stack  
+5. Stop
 
-3. Insert elements 'a', 'b', and 'c' into the queue using append().
+## PROGRAM
 
-4. Print the queue after insertion.
+```python
+stack = []
 
-5. Remove and print the first element from the queue using pop(0) (FIFO behavior).
+# Push elements into the stack
+stack.append('a')
+stack.append('b')
+stack.append('c')
 
-6. Print the queue after the first element is deleted.
+# Display the stack
+print("Stack after elements are pushed:")
+print(stack)
 
-7. Terminate the program.
+# Peek the top element
+print("Top element (Peek):", stack[-1])
 
-### PROGRAM
+# Pop the top element
+popped_element = stack.pop()
+print("Popped element:", popped_element)
 
+# Display the stack after pop
+print("Stack after pop:")
+print(stack)
 ```
-queue = []
-queue.append('a')
-queue.append('b')
-queue.append('c')
-print('Queue after elements are inserted: ')
-print(queue)
-print('Deleting the first element inserted:')
-print(queue.pop(0))
-print('Queue after the first elements is deleted: ')
-print(queue)
-```
+## OUTPUT
 
-### OUTPUT
+## RESULT
 
-![image](https://github.com/user-attachments/assets/aaa95a54-4e9b-420f-b021-7105cb3a233c)
 
-### RESULT
-
-Thus the python program was successfully created.
