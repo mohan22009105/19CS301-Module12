@@ -13,24 +13,23 @@ To write a Python program to insert 3 elements into a queue and display each ele
 5. Stop
 
 ## Program
-
-```python
-queue = []
-
-# Enqueue elements into the queue
-queue.append("a")
-queue.append("b")
-queue.append("c")
-
-# Display the initial queue
-print("Initial queue:", queue)
-
-# Display index and element
-for i in range(len(queue)):
-    print(i, queue[i])
 ```
 
+queue = []
+
+queue.append('a')
+queue.append('b')
+queue.append('c')
+
+print('Initial queue: ' + str(queue))
+
+for i in range(len(queue)):
+    print(i, end=" ")
+    print(queue[i])
+```
 ## OUTPUT
 
+![12BS](https://github.com/user-attachments/assets/fd6c0536-18fe-4d86-9e22-84b5391d016c)
 
 ## RESULT
+The given program is executed successfully.
